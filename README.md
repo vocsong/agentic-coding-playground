@@ -1,6 +1,8 @@
 # skills-playground
 
-A sandbox for exploring, inventing, and iterating on OpenCode skills.
+A sandbox for exploring, inventing, and iterating on skills for coding agents.
+
+Skills are written primarily for [OpenCode](https://opencode.ai) but use a portable `skills.md` format that should also work with Claude Code and other agentic coding tools.
 
 ## Structure
 
