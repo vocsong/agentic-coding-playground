@@ -17,3 +17,4 @@ Ask clarifying questions iteratively until all details are clear. Only then writ
 - Skills are published to `skills/<name>/`
 - Each skill must include `skills.md` with the full explanation, structure, and workflow
 - Do not invent placeholder skills — only create a skill when the requirements are fully understood
+- After publishing, update the Skills table in `README.md` with a link to the new `skills.md`

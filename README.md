@@ -10,3 +10,10 @@ A sandbox for exploring, inventing, and iterating on OpenCode skills.
 ## Workflow
 
 Skills are invented here and then, when stable, published to the `skills/` folder.
+
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| [repo-review](skills/repo-review/skills.md) | Read-only repository housekeeping audit across git hygiene, dead code, config, docs, and dependencies |
+
