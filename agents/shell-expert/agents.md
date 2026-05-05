@@ -1,5 +1,7 @@
 # Shell Expert Agent
 
+> **Companion skill required:** This agent is paired with [`skills.md`](skills.md) — a skill that auto-matches on shell/terminal prompts and tells the primary model to delegate to this sub-agent. Both the skill and the agent definition in `opencode.json` must be installed for the agent to be invoked.
+
 ## Purpose
 
 `shell-expert` is an OpenCode sub-agent that handles **all** shell command generation and execution. The primary model should **never** use the bash tool directly — every shell task is delegated to this agent, backed by a stronger model such as `openai/gpt-5.5`.

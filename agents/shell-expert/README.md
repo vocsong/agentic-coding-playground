@@ -21,6 +21,14 @@ See [`agents.md`](agents.md) for the full workflow, 10 category-by-category guid
 
 ## Quick Install
 
+**Two pieces are required** — the agent definition in `opencode.json` and the companion skill in the skills directory.
+
+### 1. Install the companion skill
+
+Copy [`skills.md`](skills.md) to `skills/shell-expert/skills.md` in your project. This skill auto-matches on shell/terminal prompts and instructs the primary model to delegate to the `shell-expert` sub-agent. Without this skill, the primary model won't know the agent exists.
+
+### 2. Add the agent definition
+
 Add this to your project's `opencode.json`:
 
 ```json
@@ -37,7 +45,7 @@ Add this to your project's `opencode.json`:
 }
 ```
 
-Then add delegation instructions to `AGENTS.md`:
+### 3. Add delegation instructions to `AGENTS.md`
 
 ```markdown
 ## Shell Command Delegation
