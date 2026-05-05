@@ -1,0 +1,11 @@
+{
+  "agent": {
+    "shell-worker": {
+      "model": "openai/gpt-5.5",
+      "description": "Generates and executes complex shell commands. Use for multi-step terminal tasks, refactors, installs, chained commands.",
+      "mode": "subagent",
+      "temperature": 0.2,
+      "steps": 20
+    }
+  }
+}
